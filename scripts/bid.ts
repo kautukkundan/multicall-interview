@@ -8,12 +8,16 @@ async function deploy() {
   // deployment
   // write some code
 
-  return { signer: signer[0], interviewInterface: "return interface", interview: "return contract" };
+  return {
+    signer: signer[0],
+    interviewInterface: "return interface",
+    interview: "return contract",
+  };
 }
 
 async function logSignerBalance(msg: string, signer: SignerWithAddress) {
   // signer wallet balance
-  const signerBalance = // write some code;
+  const signerBalance = "write some code";
   console.log({ msg: msg, value: ethers.utils.formatEther(signerBalance) });
 }
 
@@ -22,7 +26,7 @@ async function logSignerBid(
   interview: Interview,
   signer: SignerWithAddress
 ) {
-  const signerBid = // write some code;
+  const signerBid = "write some code";
   console.log({ msg, value: ethers.utils.formatEther(signerBid) });
 }
 
