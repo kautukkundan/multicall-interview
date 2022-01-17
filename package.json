@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "npx hardhat compile",
+    "run:bid": "npx hardhat run scripts/bid.ts",
+    "run:exploit": "npx hardhat run scripts/exploit.ts"
   },
   "keywords": [],
   "author": "",
